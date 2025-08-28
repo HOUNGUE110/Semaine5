@@ -95,11 +95,7 @@ class PageAcceuil extends StatelessWidget {
           color: const Color.fromARGB(255, 255, 255, 255),
           child: const Column(
             children: [
-              Image(
-                image: AssetImage('assets/images/layout2.png'),
-                //height: 1400,
-                //width: 900,
-              ),
+              Image(image: AssetImage('assets/images/layout2.png')),
               PartieTitre(),
               PartieText(),
               PartieIcone(),
